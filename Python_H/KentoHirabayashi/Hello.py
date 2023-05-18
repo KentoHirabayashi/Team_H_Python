@@ -1,0 +1,2 @@
+# printを
+print("Hello World!")
