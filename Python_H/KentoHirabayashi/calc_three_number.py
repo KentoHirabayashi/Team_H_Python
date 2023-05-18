@@ -6,4 +6,5 @@ args = sys.argv
 input_numbers = list(map(int, args[1:4]))
 # リストの中の合計値を求める
 result = sum(input_numbers)
+
 print(result, end="")
