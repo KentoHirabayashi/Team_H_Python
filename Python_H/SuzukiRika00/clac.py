@@ -14,3 +14,6 @@ num3 = int(input3)
 sum = (num1 + num2 + num3)
 
 print(sum, end="")
+
+#もしくは10行目～16行目をまとめて
+#print( int(input1) + int(input2) + int(input3) , end="")
