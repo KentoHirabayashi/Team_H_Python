@@ -3,6 +3,7 @@ args = sys.argv
 
 animallist = ["giraffe", "tiger", "zebra", "elephant", "lion"]
 
+#入力
 input_index = int(args[1])
 input_animal = args[2]
 
