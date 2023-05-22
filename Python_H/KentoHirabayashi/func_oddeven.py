@@ -2,6 +2,7 @@ import sys
 
 args = sys.argv
 
+# define function 
 def even_odd_decision(num):
     if num % 2 == 0:
         return "偶数"
