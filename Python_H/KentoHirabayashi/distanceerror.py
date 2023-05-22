@@ -19,6 +19,6 @@ station_distance = {
 try:
     station_distance_value = abs(station_distance[arrival_station] - station_distance[departure_station])
 
-    print(f"{station_distance_value}", end="")
+    print(f"{station_distance_value:.2f}", end="")
 except:
     print("のぞみの停車駅を引数に設定してください", end="")
