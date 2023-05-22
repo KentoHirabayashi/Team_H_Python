@@ -3,7 +3,6 @@ class Intro:
         self.name = name
         self.age = age
 
-
     def name_out(self):
         nametxt = "私の名前は、{0}です".format(self.name)
         return nametxt
