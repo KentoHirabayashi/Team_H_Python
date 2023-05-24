@@ -13,11 +13,12 @@ def calcvalue(num):
         print(str(num) + "は偶数")
 
 def multi_calcvalue(values):
-    for value in values:
-        calcvalue(value)
+    # for value in values:
+    #     calcvalue(value)
+    list(map(calcvalue, values))
 
 
 # input values
 values = list(map(int, args[1:]))
-
-multi_calcvalue(values)
+list(map(calcvalue, values))
+# multi_calcvalue(values)
